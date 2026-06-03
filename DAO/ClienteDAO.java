@@ -2,7 +2,6 @@ package sistema.DAO;
 
 import sistema.conexao.ConexaoBanco;
 import sistema.model.Cliente;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -10,7 +9,6 @@ import java.sql.SQLException;
 public class ClienteDAO {
 
     public void cadastrarCliente(Cliente cliente) {
-
         String sql = """
                 INSERT INTO cliente (
                     nome,
