@@ -5,7 +5,7 @@ import sistema.model.Cliente;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
+//aaaaaaa
 public class ClienteDAO {
 
     public void cadastrarCliente(Cliente cliente) {
