@@ -34,7 +34,7 @@ public class ClienteDAO {
             System.out.println("Cliente cadastrado com sucesso!");
 
         } catch (SQLException erro) {
-            throw new RuntimeException("Erro ao cadastrar clientea: " + erro.getMessage());
+            throw new RuntimeException("Erro ao cadastrar cliente: " + erro.getMessage());
         }
     }
 
