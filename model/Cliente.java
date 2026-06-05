@@ -12,8 +12,8 @@ public class Cliente {
 
     private int idCliente;
     private String nome;
-    private String cpfCnpj;
-    private String telefone;
+    private int cpfCnpj;
+    private int telefone;
     private String email;
 
 }
