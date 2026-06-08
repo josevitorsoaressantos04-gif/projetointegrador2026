@@ -22,7 +22,7 @@ public class ClienteDAO {
 
         try (
                 Connection conexao = ConexaoBanco.conectar();
-                PreparedStatement stmt = conexao.prepareStatement(sql)
+                PreparedStatement stmt =  conexao.prepareStatement(sql)
         ) {
 
             stmt.setString(1, cliente.getNome());
